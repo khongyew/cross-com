@@ -1,5 +1,6 @@
 # cross-com
-A basic guide on cross compiling for ARM linux environment
+A basic guide on cross compiling on an Ubuntu PC for an ARM linux environment <br>
+Mainly to document what I have learnt from the web. I do not claim to be an expert.
 
 ## Setting up an emulated Raspberry Pi Linux environment
 Credits to : http://embedonix.com/articles/linux/emulating-raspberry-pi-on-linux/
