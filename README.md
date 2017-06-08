@@ -90,16 +90,16 @@ Use `sudo raspi-config` to bring up the raspberry configuration menu
 Follow the screenshots to enable SSH:
 
 ![Image 1]
-(images/interfacing_options.png)
+(https://github.com/khongyew/cross-com/tree/master/images/interfacing_options.png)
 
 ![Image 2]
-(images/ssh.png)
+(https://github.com/khongyew/cross-com/tree/master/images/ssh.png)
 
 ![Image 3]
-(images/select_yes.png)
+(https://github.com/khongyew/cross-com/tree/master/images/select_yes.png)
 
 ![Image 4]
-(images/final_screen.png)
+(https://github.com/khongyew/cross-com/tree/master/images/final_screen.png)
 
 Press *ESC* to exit the config menu
 
