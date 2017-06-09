@@ -3,7 +3,7 @@ A basic guide on cross compiling on an Ubuntu PC for an ARM linux environment <b
 Mainly to document what I have learnt from the web. I do not claim to be an expert.
 
 ## Setting up an emulated Raspberry Pi Linux environment
-Credits to : http://embedonix.com/articles/linux/emulating-raspberry-pi-on-linux/
+Reference : http://embedonix.com/articles/linux/emulating-raspberry-pi-on-linux/
 
 ### Installing QEMU
 QEMU is used to emulate the raspberry pi hardware. 
@@ -53,6 +53,8 @@ Password: raspberry
 
 ## Compiling C programs with ARM linux toolchain. (Hello world example)
 
+Reference: http://gnutoolchains.com/raspberry/tutorial/
+
 Install the GCC compiler toolchain for ARM linux using `sudo apt-get install gcc-6-arm-linux-gnueabi`
 
 Save the following code as *helloworld.c*
@@ -70,6 +72,8 @@ int main()
 Compile the code using `arm-linux-gnueabi-gcc-6 helloworld.c -o test`
 
 ## Transferring C program to Raspberry Pi using SCP
+
+Reference: https://www.youtube.com/watch?v=Hj7UWfhv7Gc
 
 Now we need to transfer this *test* file to the QEMU pi. But first we need to make changes to the run script
 
