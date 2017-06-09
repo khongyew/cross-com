@@ -10,7 +10,7 @@ QEMU is used to emulate the raspberry pi hardware.
 To install, use `sudo apt-get install qemu`
 
 ### Preparing linux kernel and Raspian OS image for QEMU
-Download the kernel here: https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/master/kernel-qemu-4.4.34-jessie?raw=true
+Download the kernel here: https://github.com/dhruvvyas90/qemu-rpi-kernel/blob/master/kernel-qemu-4.4.34-jessie?raw=true <br>
 Download the image (raspbian jessie lite) here: https://www.raspberrypi.org/downloads/raspbian/
 
 #### Config script
